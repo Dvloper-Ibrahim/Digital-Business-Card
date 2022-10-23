@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #1C1C1C;
+}
+
+.card {
+    background-color: #23252C;
+    width: 550px;
+    margin: 55px auto;
+    padding: 45px 116px;
+}
+
+.container {
+    background-color: #1A1B21;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* For Small Devices */
+@media (max-width: 767px){
+    .card {
+        padding: 45px;
+        max-width: 100%;
+    }
+}
+/* ============================================================= */
+/* Styling Info Component */
+.img {
+    max-width: 100%;
+    width: 317px;
+    height: 317px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.job {
+    color: #F3BF99;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.website {
+    width: fit-content;
+    margin: 0 auto 22px;
+    color: #F5F5F5;
+    font-size: 10px;
+}
+
+.info a {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.info a:nth-of-type(1) {
+    margin-left: 35px;
+    margin-right: 8.5px;
+    background-color: #FFFFFF;
+    color: #374151;
+}
+
+.info a:first-of-type i {
+    color: #1E1F26;
+}
+
+.info a:nth-of-type(2) {
+    margin-left: 8.5px;
+    margin-right: 35px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.info i {
+    margin-right: 10px;
+}
+
+/* For Small Devices */
+@media (max-width: 767px){
+    .info a:nth-of-type(1) {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    .info a:nth-of-type(2) {
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+}
+/* Styling Info Component */
+/* ============================================================= */
+/* Styling About & Interests Components */
+.about, .interests
+{
+    padding: 0 35px;
+}
+
+.about h3,
+.interests h3 {
+    margin: 35px 0 8px;
+    color: #F5F5F5;
+}
+
+.interests h3 {
+    margin: 25px 0 8px;
+}
+
+.about p,
+.interests p {
+    margin: 8px 0;
+    color: #DCDCDC;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+/* For Small Devices */
+@media (max-width: 767px){
+    .about, .interests {
+        padding: 0 25px;
+    }
+}
+/* Styling About & Interests Components */
+/* ============================================================= */
+/* Styling CardFooter Component */
+.card-footer {
+    height: 64px;
+    background-color: #161619;
+    margin-top: 40px;
+    padding: 20px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer i {
+    font-size: 25px;
+    color: #918E9B;
+}
+.card-footer i:hover {
+    color: #00ceff;
+}
+/* Styling CardFooter Component */
