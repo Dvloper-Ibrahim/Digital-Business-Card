@@ -575,7 +575,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             "a",
-            { href: "ibrahimahmed90000@gmail.com", target: "_blank" },
+            { href: "mailto:ibrahimahmed90000@gmail.com", target: "_blank" },
             _react2.default.createElement("i", { className: "fa-solid fa-envelope" }),
             "Email"
         ),

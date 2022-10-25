@@ -7,7 +7,7 @@ export default function(){
             <h2 className="name">Ibrahim Ahmed</h2>
             <h4 className="job">Frontend Developer</h4>
             <p className="website">ibrahimahmed.wedsite</p>
-            <a href="ibrahimahmed90000@gmail.com" target={"_blank"}>
+            <a href="mailto:ibrahimahmed90000@gmail.com" target={"_blank"}>
                 <i className="fa-solid fa-envelope"></i>
                 Email
             </a>
