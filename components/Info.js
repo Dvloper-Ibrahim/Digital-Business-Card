@@ -3,7 +3,7 @@ import React from "react";
 export default function(){
     return (
         <div className="info">
-            <img src="./components/assets/profile.jpg" className="img" alt="presonal image" />
+            <img src="./components/assets/personal-image.jpg" className="img" alt="presonal image" />
             <h2 className="name">Ibrahim Ahmed</h2>
             <h4 className="job">Frontend Developer</h4>
             <p className="website">ibrahimahmed.wedsite</p>

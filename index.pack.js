@@ -557,7 +557,7 @@ exports.default = function () {
     return _react2.default.createElement(
         "div",
         { className: "info" },
-        _react2.default.createElement("img", { src: "./components/assets/profile.jpg", className: "img", alt: "presonal image" }),
+        _react2.default.createElement("img", { src: "./components/assets/personal-image.jpg", className: "img", alt: "presonal image" }),
         _react2.default.createElement(
             "h2",
             { className: "name" },
